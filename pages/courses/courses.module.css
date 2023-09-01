@@ -1,0 +1,29 @@
+.courses_page {
+    padding: 0 5%;
+}
+
+.courses_header {
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    color: #5A0BA9;
+    font-family: byekan;
+    font-size: 25px;
+}
+
+
+.courses_items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    margin-top: 8px;
+}

@@ -1,0 +1,293 @@
+.register_page {
+    justify-content: right;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+    background-image: url(../../src/assets/images/background_register.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 0 10%;
+    font-family: dirooz;
+}
+
+.form_register {
+    width: 392px;
+    height: 565px;
+    background-color: #fff;
+    box-shadow: 0px 0px 3px 1px #b0adad;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.title {
+    text-align: center;
+    color: #7f1ca2;
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-family: byekan;
+}
+
+.border {
+    height: 1px;
+    background-color: #707070;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.border span {
+    background-color: #fff;
+    padding: 0 15px;
+}
+
+.icons_register {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    margin-bottom: 35px;
+    width: 100%;
+}
+
+.go_to_login {
+    text-align: center;
+}
+
+.link_login {
+    margin-right: 10px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 2px;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .register_page {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.box_wizard {
+    position: relative;
+}
+
+.wizard_item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+    background-color: #fff0;
+    background-position: center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    align-items: center;
+    height: 120px;
+    margin-top: 56px;
+}
+
+.wizard_parent {
+    height: 1px;
+    background-color: #ccc;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin: 45px 0;
+    margin-bottom: 55px;
+}
+
+.wizard_title {
+    font-size: 17px;
+    color: #801BA3;
+    text-align: center;
+}
+
+.wizard_information_user_active {
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    width: 63px;
+    height: 63px;
+    background-image: url(../../src/assets/images/lock_icon.png);
+    background-position: center;
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+
+.wizard_accepted {
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    width: 63px;
+    height: 63px;
+    background-color: #2aeb50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.wizard_title_active {
+    color: #801BA3 !important;
+    font-size: 12px;
+}
+
+.wizard_title {
+    color: #8D8D8D !important;
+    font-size: 12px;
+}
+
+.wizard_information_personal {
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    width: 63px;
+    height: 63px;
+    background-image: url(../../src/assets/images/user_gray.png);
+    background-position: center;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+
+.wizard_information_personal_active {
+    background-image: url(../../src/assets/images/user_active.png);
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    width: 63px;
+    height: 63px;
+    background-position: center;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+
+.wizard_information_personal_accepted {
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    width: 63px;
+    height: 63px;
+    background-color: #2aeb50;
+    background-position: center;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wizard_phone {
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    width: 63px;
+    height: 63px;
+    background-image: url(../../src/assets/images/phone_gray.png);
+    background-position: center;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+
+.wizard_phone_active {
+    background-image: url(../../src/assets/images/phone_active.png);
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    width: 63px;
+    height: 63px;
+    background-position: center;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+
+.show {
+    display: inline-block;
+}
+
+.hide {
+    display: none !important;
+}
+
+.link_register {
+    margin-right: 5px;
+    position: relative;
+    bottom: 4px;
+}
+
+.link_register:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.go_to_register {
+    color: #8D8D8D;
+    font-size: 18px;
+}
+
+.parent_items {
+    padding: 0 43px;
+    width: 100%;
+}
+
+.step_phone_number {
+    width: 100%;
+    position: relative;
+}
+
+
+
+.parent_authorization {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .register_page {
+        justify-content: center;
+        background: #f9f9f9;
+    }
+}
+
+.change_style {
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.parent_change_style {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.register_page form {
+    width: 100%;
+}
+
+.previous {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #801BA3 !important;
+}
+
+.previous:hover {
+    color: rgb(24 118 209) !important;
+}

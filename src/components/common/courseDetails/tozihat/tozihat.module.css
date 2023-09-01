@@ -1,0 +1,25 @@
+.container{
+    width: 1200px;
+    height: 300px;
+    margin: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+}
+.title{
+    display: flex;
+    font-family: dirooz;
+    font-size: 19px;
+    margin-right: 50px;
+}
+.tozihat{
+    /* border: 1px solid red; */
+    width: 1050px;
+    height: 100%;
+    margin:10px auto;
+    font-size: 14px;
+    line-height: 25px;
+    font-family: dirooz;
+}

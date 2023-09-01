@@ -1,0 +1,106 @@
+.container{
+    margin: auto;
+    /* margin-bottom: 50px; */
+    /* border: 1px solid black; */
+    width: 1150px;
+    height: 500px;
+    margin-top: -20px;
+}
+.dasteBandi{
+    font-family: byekan;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.items{
+    margin-bottom: -100px;
+    justify-content: center;
+    display: flex;
+    /* border: 1px solid black; */
+}
+.item{
+    /* border-radius: 17px; */
+    position: relative;
+    width: 20vw;
+    height: 500px;
+    overflow: hidden;
+}
+.item:first-child{
+    border-radius:17px 0 0 17px ;
+}
+.item:last-child{
+    border-radius: 0 17px 17px 0;
+}
+
+.imgOverlay{
+    font-family: dirooz;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /* background: rgb(240, 202, 245); */
+    background: #F9F9F9;
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.itemWrapper:hover .imgOverlay{
+    top: -100%;
+}
+
+.item .img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.5);
+    transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.itemWrapper:hover .img{
+    transform: scale(1);
+}
+.itemCopy{
+    font-family: dirooz;
+
+    position: absolute;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3em 2.5em;
+    font-family: tahoma;
+    text-transform: uppercase;
+    line-height: 60px;
+    color: #000;
+    z-index: 2;
+    transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.itemName{
+    font-family: dirooz;
+    direction: rtl;
+    font-size: 40px;
+}
+
+.itemName .span{
+    font-family: dirooz;
+
+    direction: rtl;
+    font-family: tahoma;
+    font-size: 20px;
+    line-height: 120%;
+    text-transform: uppercase;
+    display: block;
+}
+
+.itemWrapper:hover .itemCopy{
+    box-shadow: inset 20px 10px 90px 15px rgba(0, 0, 0, 0.5) ;
+    color: #ffffff;
+    text-shadow: 3px 4px 10px  rgba(0, 0, 0, 0.5);
+}
+

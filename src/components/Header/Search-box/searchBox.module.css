@@ -1,0 +1,28 @@
+.box{
+    height: 30px;
+    display: flex;
+    padding: 10px 20px;
+    background: #C200BC;
+    border-radius: 30px;
+    align-items: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    float: right;
+}
+.box:hover input{
+    width: 180px;
+}
+.box input{
+    font-family: dirooz;
+    direction: rtl;
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.5s;
+    background: transparent;
+}
+.box input::placeholder{
+    color: #fff;
+    padding-right: 15px;
+    font-size: 13px;
+}

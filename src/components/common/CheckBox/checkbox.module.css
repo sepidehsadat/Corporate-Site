@@ -1,0 +1,21 @@
+.parent_checkbox {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    align-items: center;
+    gap: 8px;
+    font-size: 18px;
+    color: #8D8D8D;
+    margin-bottom: 18px;
+    padding: 0 43px;
+    width: 100%;
+}
+
+.check_box_input {
+    position: relative;
+    top: 2px;
+}
+
+.parent_checkbox label{
+    font-size: 14px;
+}

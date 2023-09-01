@@ -1,0 +1,31 @@
+.input {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    text-align: right;
+    padding: 10px;
+    height: 45px;
+    border: 1px solid #707070;
+    font-size: 20px;
+    margin-bottom: 14px;
+    margin-top: 14px;
+    direction: rtl;
+}
+
+.input::placeholder {
+    font-size: 20px;
+    color: #801BA3;
+}
+
+.error {
+    text-align: right;
+    font-size: 13px;
+    color: #f00;
+    position: absolute;
+    bottom: -9px;
+    right: 0;
+}
+
+.InputText {
+    position: relative;
+}

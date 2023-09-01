@@ -1,0 +1,30 @@
+.search {
+    border: 1px solid #ccc;
+    width: 250px;
+    height: 35px;
+    margin-top: 8px;
+    position: relative;
+}
+
+.input_search {
+    height: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: right;
+    padding-right: 50px;
+    box-shadow: 0px 0px 12px 1px #ccc;
+}
+
+.btn_search {
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    background: #C200BC;
+    right: 0px;
+    border-radius: 20px;
+    display: flex;
+    top: 0;
+    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
+}

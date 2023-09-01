@@ -1,0 +1,25 @@
+.icons_login {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.border {
+    height: 1px;
+    background-color: #ccc;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.border span {
+    background-color: #fff;
+    padding: 0 15px;
+    color: #8D8D8D;
+    font-size: 18px;
+}
