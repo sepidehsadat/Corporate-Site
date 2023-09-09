@@ -1,8 +1,8 @@
 import React from 'react'
-import f from "./api/f.css"
+import Landing from "./landing/index"
 
 export default function index() {
   return (
-    <div>index</div>
+    <div><Landing/></div>
   )
 }
