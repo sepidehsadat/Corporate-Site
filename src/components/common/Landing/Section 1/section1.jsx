@@ -88,6 +88,10 @@ const Section1 = () =>
           <h3 className={Style.daneshjoo} >دانشجو</h3> <h3 className={Style.tedad} >1420</h3>
 
         </motion.div>
+        <div className={Style.parent_link}>
+          <Link className={Style.link} href="/login" >ورود</Link>
+          <Link className={Style.link} href="/register">ثبت نام</Link>
+        </div>
       </div>
       {/* <motion.div
         initial={{
