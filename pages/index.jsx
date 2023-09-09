@@ -1,7 +1,9 @@
 import React from 'react'
-import Landing from "./landing/index"
+import App from "./_app"
+import Landing from './landing'
 
-export default function index() {
+export default function index()
+{
   return (
     <div><Landing/></div>
   )

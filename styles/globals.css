@@ -12,9 +12,6 @@
   src: url("../src/assets/fonts/yekan.ttf");
 }
 
-* {
-  cursor: none;
-}
 
 html,
 body {
@@ -40,7 +37,6 @@ body {
   font-size: 18px;
   background: #fff;
   border-radius: 17px;
-  /* Center slide text vertically */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,11 +49,6 @@ body {
   height: 100px;
   object-fit: cover;
 }
-
-Link {
-  cursor: none;
-}
-
 
 
 .navbar {
