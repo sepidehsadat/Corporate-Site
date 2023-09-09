@@ -15,7 +15,6 @@ const Nav = () => {
     <div className="nav">
       <div className="nav-container">
         <div className="navbar">
-          
           <div className="menu-toggle" onClick={() => setNavOpen(!navOpen)}>
             <div className={navOpen ? "hamBox hamBoxOpen" : "hamBox"}>
               <span className={navOpen ? "lineTop spin" : "lineTop"}></span>
@@ -25,7 +24,6 @@ const Nav = () => {
             </div>
           </div>
         </div>
-
         <div
           className="nav-overlay"
           style={{

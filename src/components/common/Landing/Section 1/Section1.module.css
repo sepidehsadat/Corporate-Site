@@ -28,9 +28,8 @@
     height: 100px;
     display: flex;
     float: right;
-    margin-top: -150px;
-    margin-right: 145px;
-    /* border: 1px solid black; */
+    margin-top: -194px;
+    margin-right: 245px;
 }
 .img{
     transform: translateY(-50px);
